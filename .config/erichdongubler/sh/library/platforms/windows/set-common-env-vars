@@ -1,0 +1,9 @@
+#! /bin/sh
+
+set_env_var_cmd="$HOME/.config/erichdongubler/sh/library/platforms/windows/set-user-env-var"
+
+"$set_env_var_cmd" XDG_CACHE_HOME '%userprofile%\.cache'
+"$set_env_var_cmd" XDG_CONFIG_HOME '%userprofile%\.config'
+
+"$set_env_var_cmd" VIMINIT 'let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
+"$set_env_var_cmd" WAKATIME_HOME '%XDG_CACHE_HOME%\wakatime'
