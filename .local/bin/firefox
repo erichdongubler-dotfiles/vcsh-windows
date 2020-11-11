@@ -1,0 +1,3 @@
+#! /bin/sh
+
+"$WINDOWS_SYSTEMDRIVE/Program Files/Mozilla Firefox/firefox.exe" "$@"

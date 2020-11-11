@@ -1,0 +1,3 @@
+#! /bin/sh
+
+"$WINDOWS_SYSTEMDRIVE/Program Files/Perforce/p4merge.exe" "$@"
