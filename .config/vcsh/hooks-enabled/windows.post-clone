@@ -1,0 +1,3 @@
+#! /bin/sh
+
+~/.config/erichdongubler/sh/library/platforms/windows/set-common-env-vars
